@@ -21,17 +21,6 @@ class HomeScreen extends StatelessWidget {
                   onPressed: () {},
                   color: Colors.blue,
                 ),
-                SizedBox(
-                  width: 30,
-                ),
-                RaisedButton(
-                  onPressed: () {},
-                  padding: EdgeInsets.all(16.0),
-                  color: Colors.blue,
-                  child: Text(
-                    'Third Screen',
-                  ),
-                ),
               ],
             ),
           ),
