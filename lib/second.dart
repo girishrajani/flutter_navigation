@@ -24,7 +24,9 @@ class SecondScreen extends StatelessWidget {
                   RaisedButton(
                     padding: EdgeInsets.all(16.0),
                     child: Text('Go Back to Home Screen'),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
                     color: Colors.pink,
                   ),
                 ]),
