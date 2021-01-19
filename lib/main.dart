@@ -40,10 +40,7 @@ class HomeScreen extends StatelessWidget {
           backgroundColor: Colors.pink,
           title: Text('Home Screen'),
           actions: <Widget>[
-            IconButton(
-              icon: Icon(Icons.home),
-              onPressed: () {},
-            )
+            Icon(Icons.home),
           ],
         ),
       ),
