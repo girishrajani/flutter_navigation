@@ -15,7 +15,13 @@ class FirstScreen extends StatelessWidget {
                 RaisedButton(
                   padding: EdgeInsets.all(16.0),
                   child: Text('Second Screen'),
-                  onPressed: () {},
+                  onPressed: () {
+                    print("PRESS WORKING");
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => SecondScreen()),
+                    );
+                  },
                   color: Colors.blue,
                 ),
               ],

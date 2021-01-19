@@ -11,7 +11,9 @@ class SecondScreen extends StatelessWidget {
           actions: <Widget>[
             IconButton(
               icon: Icon(Icons.home),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pop(context);
+              },
             )
           ],
         ),
